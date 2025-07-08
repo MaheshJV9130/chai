@@ -5,7 +5,7 @@ import Link from "next/link";
 import { notFound, useParams } from "next/navigation";
 import { useSession, signIn, signOut } from "next-auth/react";
 
-const page = ({ params }) => {
+const User = ({ params }) => {
   const { data: session, status } = useSession();
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -115,4 +115,4 @@ const page = ({ params }) => {
   );
 };
 
-export default page;
+export default User;
