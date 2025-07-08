@@ -15,7 +15,13 @@ const Navbar = () => {
       <nav className="max-w-screen max-h-20 bg-[#B48048] flex justify-between md:px-5 overflow-x-hidden">
         <div className="logo flex justify-center px-2">
           <Link href="/">
-            <Image src="/tea.gif" alt="logo" width={83} height={0} priority />
+            <img
+              src="/tea.gif"
+              alt="logo"
+              width={83}
+              height={0}
+              style={{ width: "83", height: "auto" }}
+            />
           </Link>
         </div>
 
@@ -39,7 +45,7 @@ const Navbar = () => {
                   autoFocus
                 />
                 <button type="submit">
-                  <Image
+                  <img
                     src="/search.png"
                     alt="search"
                     width={30}
@@ -49,7 +55,7 @@ const Navbar = () => {
                 </button>
               </form>
             ) : (
-              <Image
+              <img
                 src="/search.png"
                 alt="search"
                 width={30}
@@ -65,7 +71,7 @@ const Navbar = () => {
             <li className="">
               <div className="flex justify-evenly items-center gap-2 text-base md:text-md  border-2 border-black px-2 py-2 rounded-xl cursor-pointer ">
                 <Link href="/login">
-                  <Image src="/user.png" alt="profile" width={30} height={30} />
+                  <img src="/user.png" alt="profile" width={30} height={30} />
                 </Link>
 
                 <Link href="/login">Login</Link>
