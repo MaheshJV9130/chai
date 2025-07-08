@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = () => {
+const Contact = () => {
   return (
     <section className="bg-orange-50 py-16 px-4 md:px-12">
       <div className="max-w-5xl mx-auto text-center">
@@ -83,7 +83,7 @@ const page = () => {
   );
 };
 
-export default page;
+export default Contact;
 export const metadata = {
   title: "Chai - Contact",
   description: "A Crowdfunding Site for Creators",

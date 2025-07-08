@@ -5,7 +5,7 @@ import { redirect, useRouter } from "next/navigation";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { ToastContainer, toast } from "react-toastify";
 
-const page = () => {
+const Settings = () => {
   const {
     register,
     handleSubmit,
@@ -211,5 +211,5 @@ const page = () => {
   );
 };
 
-export default page;
+export default Settings;
 

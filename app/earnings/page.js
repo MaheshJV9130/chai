@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page = () => {
+const Earnings = () => {
   return (
     <div>
       This is Earnings Page
@@ -8,7 +8,7 @@ const page = () => {
   )
 }
 
-export default page
+export default Earnings
 export const metadata = {
   title: "Chai- Earnings",
   description: "A Crowdfunding Site for Creators",

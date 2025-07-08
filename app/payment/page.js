@@ -4,7 +4,7 @@ import PaymentPage from "@/components/PaymentPage";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
-const page = () => {
+const Payment = () => {
   const { data: session } = useSession();
   const router = useRouter();
   useEffect(() => {
@@ -20,5 +20,5 @@ const page = () => {
   );
 };
 
-export default page;
+export default Payment;
 
